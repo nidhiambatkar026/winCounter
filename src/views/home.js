@@ -44,8 +44,8 @@ export function Home(){
 
            </div>
 
-           <div className="flex justify-center mt-10">
-             <button className="bg-blue-500 px-10 py-3 text-5xl text-white rounded-lg shadow-lg"
+           <div className="flex justify-center mt-4 md:mt-10">
+             <button className="bg-blue-500 px-10 py-3 text-2xl md:text-5xl text-white rounded-lg shadow-lg"
              onClick={() =>{
                 setScoreA(0);
                 setScoreB(0);
