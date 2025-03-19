@@ -23,8 +23,8 @@ export function Home(){
     }, [scoreA , scoreB]);
 
     return(
-        <div className="bg-blue-100 min-h-screen p-10">
-           <h1 className="text-center text-3xl md:text-5xl py-4 md:py-10 border-2 border-blue-500 border-dashed rounded-md text-blue-500 bg-white">WinCounter</h1>
+        <div className="bg-blue-300 min-h-screen p-10">
+           <h1 className="text-center text-3xl md:text-5xl py-4 md:py-10 border-2 border-blue-500 border-dashed rounded-md text-blue-500 bg-yellow-300">WinCounter</h1>
 
            <div className="flex flex-col md:flex-row justify-center md:justify-around md:mt-10">
             <ScoreCard 
@@ -57,7 +57,7 @@ export function Home(){
            </div>
 
            <div className="flex justify-center mt-4 md:mt-10">
-             <button className="bg-blue-500 px-10 py-3 text-2xl md:text-5xl text-white rounded-lg shadow-lg"
+             <button className="bg-yellow-300 px-10 py-3 text-2xl md:text-5xl text-blue-500 rounded-lg shadow-lg"
              onClick={() =>{
                 setScoreA(0);
                 setScoreB(0);
